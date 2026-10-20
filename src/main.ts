@@ -58,5 +58,5 @@ try {
     "OpenRouter request failed:",
     error instanceof Error ? error.message : error,
   );
-  process.exitCode = 1;
+  process.exitCode =1
 }
